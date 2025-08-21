@@ -3,6 +3,9 @@ source "https://rubygems.org"
 # Heroku should user this version of ruby
 ruby '3.1.3'
 
+# add twitter bootstrap
+gem 'bootstrap-sass'
+
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.2.2", ">= 7.2.2.1"
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
