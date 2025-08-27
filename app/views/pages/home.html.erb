@@ -18,7 +18,7 @@
                       key: '<%= Rails.configuration.stripe[:publishable_key] %>',
                       token: function(token, arg) {
                         document.getElementById("stripeToken").value = token.id;
-                        document.getElementById("stripeEmail").value = 'ncampoverdec2@unemi.edu.ec';
+                        document.getElementById("stripeEmail").value = token.email;
                         document.getElementById("chargeForm").submit();
                       }
                   });
