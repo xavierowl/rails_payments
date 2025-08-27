@@ -6,6 +6,9 @@ ruby '3.1.3'
 # add twitter bootstrap
 gem 'bootstrap-sass'
 
+gem 'letter_opener', group: :development
+gem 'letter_opener_web', group: :development
+
 # stripe for taking payments
 gem  'stripe', :git =>'https://github.com/stripe/stripe-ruby'
 
