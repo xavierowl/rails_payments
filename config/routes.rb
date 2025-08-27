@@ -5,9 +5,7 @@ Rails.application.routes.draw do
   resources :charges
   resources :purchases, only: [:show]
 
-  if Rails.env.development?
-    mount LetterOpenerWeb::Engine, at: "/letter_opener"
-  end
+  mount LetterOpenerWeb::Engine, at: "/letter_opener"
 
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
