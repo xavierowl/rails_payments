@@ -4,6 +4,7 @@ Rails.application.routes.draw do
 
   resources :charges
   resources :purchases, only: [:show]
+  resources :products, only: [:index]
 
   if Rails.env.development?
     mount LetterOpenerWeb::Engine, at: "/letter_opener"
