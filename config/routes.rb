@@ -1,10 +1,10 @@
 Rails.application.routes.draw do
 
-  root 'pages#home'
+  root 'products#index'
 
   resources :charges
   resources :purchases, only: [:show]
-  resources :products, only: [:index]
+  resources :products, only: [:index, :show]
 
   if Rails.env.development?
     mount LetterOpenerWeb::Engine, at: "/letter_opener"
