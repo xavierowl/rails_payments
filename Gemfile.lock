@@ -1,8 +1,8 @@
 GIT
   remote: https://github.com/stripe/stripe-ruby
-  revision: 13766d190ceaa024d09910a0a8faa6103b8c0f9b
+  revision: b6298969aefd2a3306f8b6d1edb8fc7b98f870a6
   specs:
-    stripe (15.4.0)
+    stripe (15.5.0)
 
 GEM
   remote: https://rubygems.org/
